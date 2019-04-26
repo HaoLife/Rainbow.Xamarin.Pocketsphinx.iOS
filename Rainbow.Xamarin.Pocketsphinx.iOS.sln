@@ -1,7 +1,9 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Xamarin.Pocketsphinx.iOS", "Rainbow.Xamarin.Pocketsphinx.iOS\Rainbow.Xamarin.Pocketsphinx.iOS.csproj", "{BFE23FAA-524A-48EE-990E-1926AB5F7E87}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Xamarin.Pocketsphinx.iOS", "Rainbow.Xamarin.Pocketsphinx.iOS\Rainbow.Xamarin.Pocketsphinx.iOS.csproj", "{4448004D-A1C6-48C1-983C-40DB7B70CEE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +11,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BFE23FAA-524A-48EE-990E-1926AB5F7E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFE23FAA-524A-48EE-990E-1926AB5F7E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFE23FAA-524A-48EE-990E-1926AB5F7E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BFE23FAA-524A-48EE-990E-1926AB5F7E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4448004D-A1C6-48C1-983C-40DB7B70CEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4448004D-A1C6-48C1-983C-40DB7B70CEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4448004D-A1C6-48C1-983C-40DB7B70CEE4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4448004D-A1C6-48C1-983C-40DB7B70CEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4448004D-A1C6-48C1-983C-40DB7B70CEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4448004D-A1C6-48C1-983C-40DB7B70CEE4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77FC2748-30A5-4F83-A3F0-5FE92DB035DD}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,6 @@
+framework module Sphinxbase_CocoaPod {
+  umbrella header "Sphinxbase-CocoaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

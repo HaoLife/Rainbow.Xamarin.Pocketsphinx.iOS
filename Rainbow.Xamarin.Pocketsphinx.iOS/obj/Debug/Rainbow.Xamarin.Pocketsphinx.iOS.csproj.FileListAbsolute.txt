@@ -1,5 +1,0 @@
-/Users/liuhao/Desktop/project/Rainbow.Xamarin.Pocketsphinx.iOS/Rainbow.Xamarin.Pocketsphinx.iOS/bin/Debug/NativeLibrary.dll
-/Users/liuhao/Desktop/project/Rainbow.Xamarin.Pocketsphinx.iOS/Rainbow.Xamarin.Pocketsphinx.iOS/bin/Debug/NativeLibrary.pdb
-/Users/liuhao/Desktop/project/Rainbow.Xamarin.Pocketsphinx.iOS/Rainbow.Xamarin.Pocketsphinx.iOS/obj/Debug/Rainbow.Xamarin.Pocketsphinx.iOS.csproj.CoreCompileInputs.cache
-/Users/liuhao/Desktop/project/Rainbow.Xamarin.Pocketsphinx.iOS/Rainbow.Xamarin.Pocketsphinx.iOS/obj/Debug/NativeLibrary.dll
-/Users/liuhao/Desktop/project/Rainbow.Xamarin.Pocketsphinx.iOS/Rainbow.Xamarin.Pocketsphinx.iOS/obj/Debug/NativeLibrary.pdb
