@@ -1,6 +1,6 @@
-﻿using System;
+﻿//using System;
 
-namespace NativeLibrary
-{
-}
+//namespace NativeLibrary
+//{
+//}
 
