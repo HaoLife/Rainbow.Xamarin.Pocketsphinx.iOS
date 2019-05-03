@@ -1,66 +1,132 @@
-﻿//using System;
+﻿using Foundation;
 
-//using ObjCRuntime;
-//using Foundation;
-//using UIKit;
+namespace Pocketsphinx
+{
+    [Static]
+    partial interface Constants
+    {
+        // extern int ad_rec_t;
+        [Field("ad_rec_t", "__Internal")]
+        int ad_rec_t { get; }
 
-//namespace NativeLibrary
-//{
-//    // The first step to creating a binding is to add your native library ("libNativeLibrary.a")
-//    // to the project by right-clicking (or Control-clicking) the folder containing this source
-//    // file and clicking "Add files..." and then simply select the native library (or libraries)
-//    // that you want to bind.
-//    //
-//    // When you do that, you'll notice that MonoDevelop generates a code-behind file for each
-//    // native library which will contain a [LinkWith] attribute. VisualStudio auto-detects the
-//    // architectures that the native library supports and fills in that information for you,
-//    // however, it cannot auto-detect any Frameworks or other system libraries that the
-//    // native library may depend on, so you'll need to fill in that information yourself.
-//    //
-//    // Once you've done that, you're ready to move on to binding the API...
-//    //
-//    //
-//    // Here is where you'd define your API definition for the native Objective-C library.
-//    //
-//    // For example, to bind the following Objective-C class:
-//    //
-//    //     @interface Widget : NSObject {
-//    //     }
-//    //
-//    // The C# binding would look like this:
-//    //
-//    //     [BaseType (typeof (NSObject))]
-//    //     interface Widget {
-//    //     }
-//    //
-//    // To bind Objective-C properties, such as:
-//    //
-//    //     @property (nonatomic, readwrite, assign) CGPoint center;
-//    //
-//    // You would add a property definition in the C# interface like so:
-//    //
-//    //     [Export ("center")]
-//    //     CGPoint Center { get; set; }
-//    //
-//    // To bind an Objective-C method, such as:
-//    //
-//    //     -(void) doSomething:(NSObject *)object atIndex:(NSInteger)index;
-//    //
-//    // You would add a method definition to the C# interface like so:
-//    //
-//    //     [Export ("doSomething:atIndex:")]
-//    //     void DoSomething (NSObject object, int index);
-//    //
-//    // Objective-C "constructors" such as:
-//    //
-//    //     -(id)initWithElmo:(ElmoMuppet *)elmo;
-//    //
-//    // Can be bound as:
-//    //
-//    //     [Export ("initWithElmo:")]
-//    //     IntPtr Constructor (ElmoMuppet elmo);
-//    //
-//    // For more information, see http://docs.xamarin.com/ios/advanced_topics/binding_objective-c_types
-//    //
-//}
+        // extern int ad_rec_t;
+        [Field("ad_rec_t", "__Internal")]
+        int ad_rec_t { get; }
 
+        // extern int ad_rec_t;
+        [Field("ad_rec_t", "__Internal")]
+        int ad_rec_t { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+    }
+
+    partial interface Constants
+    {
+        // extern int agc_type_t;
+        [Field("agc_type_t", "__Internal")]
+        int agc_type_t { get; }
+    }
+
+    partial interface Constants
+    {
+        // extern int agc_t;
+        [Field("agc_t", "__Internal")]
+        int agc_t { get; }
+
+        // extern int float32;
+        [Field("float32", "__Internal")]
+        int float32 { get; }
+
+        // extern int float32;
+        [Field("float32", "__Internal")]
+        int float32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int16;
+        [Field("int16", "__Internal")]
+        int int16 { get; }
+    }
+
+    partial interface Constants
+    {
+        // extern int uint64;
+        [Field("uint64", "__Internal")]
+        int uint64 { get; }
+
+        // extern int uint32;
+        [Field("uint32", "__Internal")]
+        int uint32 { get; }
+
+        // extern int uint8;
+        [Field("uint8", "__Internal")]
+        int uint8 { get; }
+
+        // extern int bitvec_t;
+        [Field("bitvec_t", "__Internal")]
+        int bitvec_t { get; }
+
+        // extern int size_t;
+        [Field("size_t", "__Internal")]
+        int size_t { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+
+        // extern int int32;
+        [Field("int32", "__Internal")]
+        int int32 { get; }
+    }
+
+    partial interface Constants
+    {
+        // extern const char *[] cmn_type_str;
+        [Field("cmn_type_str", "__Internal")]
+        unsafe sbyte*[] cmn_type_str { get; }
+    }
+}
